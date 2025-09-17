@@ -1,3 +1,42 @@
+# Personal Portfolio Website
+
+Welcome to my personal portfolio website! This site showcases my skills, projects, and achievements in web development and cloud technologies. It serves as a platform to demonstrate my work and connect with others.
+
+## 🌐 Live Demo
+Check out the live website here: [Portfolio](https://sivathmika.netlify.app/)
+
+## 💻 Technologies Used
+- **Frontend:** React.js, HTML5, CSS3, JavaScript
+- **Styling:** Tailwind CSS, Bootstrap
+- **Deployment:** Netlify
+
+## 🚀 Features
+- Interactive UI with responsive design
+- Showcases multiple projects and mini-projects
+- Portfolio highlights skills in web development and cloud computing
+- Easy navigation through sections
+- Contact and social links included
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

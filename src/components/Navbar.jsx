@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Download } from 'lucide-react';
 import { motion } from 'framer-motion';
+import myLogo from "../assets/logo.png"; 
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -61,11 +63,11 @@ const handleResumeDownload = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0">
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Portfolio
-            </span>
-          </div>
+          <div className="flex items-center space-x-2 flex-shrink-0 cursor-pointer" onClick={() => scrollToSection('home')}>
+  <img src={myLogo} alt="Sivathmika Logo" className="w-8 mt-1.5 h-8 object-contain" />
+  <span className="text-2xl font-bold text-gray-900">Sivathmika</span>
+</div>
+
 
           {/* Desktop Menu */}
           <div className="hidden md:block">
